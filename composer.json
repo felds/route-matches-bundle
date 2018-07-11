@@ -1,5 +1,6 @@
 {
     "name": "felds/route-matches-bundle",
+    "homepage": "https://github.com/felds/route-matches-bundle",
     "type": "symfony-bundle",
     "license": "MIT",
     "authors": [
@@ -12,5 +13,10 @@
         "symfony/http-kernel": "^4.1",
         "symfony/twig-bundle": "^4.1",
         "symfony/http-foundation": "^4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Felds\\RouteMatchesBundle\\": ""
+        }
     }
 }
