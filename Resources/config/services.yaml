@@ -1,0 +1,6 @@
+services:
+    _defaults:
+        autowire: true
+
+    Felds\RouteMatchesBundle\Twig\RouteMatchesExtension:
+        tags: ["twig.extension"]
