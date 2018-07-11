@@ -35,6 +35,6 @@ class RouteMatchesExtension extends Twig_Extension
             return false;
         }
 
-        return (bool) preg_match($pattern, $route);
+        return (bool)preg_match($pattern, $route);
     }
 }
